@@ -1,0 +1,10 @@
+Name:Chloe, Deranged Hermit
+ManaCost:3 G G
+Types:Legendary Creature Elf
+PT:1/1
+K:Echo:3 G G
+S:Mode$ Continuous | Affected$ Creature.Corgi | AddPower$ 1 | AddToughness$ 1 | Description$ Corgi creatures get +1/+1.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create four 1/1 green Corgi creature tokens.
+SVar:TrigToken:DB$ Token | TokenAmount$ 4 | TokenScript$ g_1_1_corgi | TokenOwner$ You
+SVar:PlayMain1:TRUE
+Oracle:Echo {3}{G}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen Deranged Hermit enters the battlefield, create four 1/1 green Corgi creature tokens.\nCorgi creatures get +1/+1.

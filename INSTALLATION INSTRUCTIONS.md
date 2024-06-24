@@ -85,6 +85,28 @@ The steps are:
    - **LDAModelGenerator.java** - Throws up an error and setting line 1 to main.java.forge.lda fixed that.
    
    - **GamePlayerUtil.java** - Injected code that will put override the names used for draft opponents.
+   
+   - **Various cards and customs in Cardfolder**
+     
+     - bob_dark_confidant.txt
+     
+     - captain_bradleys_sword.txt
+     
+     - chloe_deep_forest_hermit.txt
+     
+     - chloe_deranged_hermit.txt
+     
+     - forth_corgis.txt
+     
+     - kudo_king_among_corgis.txt
+     
+     - lord_reginald_corgi_of_the_people.txt
+     
+     - nicol_bolas_the_ravager_nicol_bolas_the_arisen.txt
+     
+     - reggie_stellar_pup.txt
+     
+     - sir_reginald_menace_at_the_door
 
 3. Switch back to your own repository and commit
 
