@@ -1,4 +1,4 @@
-Name:Kudo, King Among Bears
+Name:Kudo, King Among Corgis
 ManaCost:G W
 Types:Legendary Creature Corgi
 PT:2/2
