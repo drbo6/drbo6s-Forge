@@ -1,0 +1,7 @@
+Name:Kudo, King Among Corgis
+ManaCost:G W
+Types:Legendary Creature Corgi
+PT:2/2
+S:Mode$ Continuous | Affected$ Creature.Other | SetPower$ 2 | SetToughness$ 2 | AddType$ Corgi | Description$ Other creatures have base power and toughness 2/2 and are Corgis in addition to their other types.
+SVar:NonStackingEffect:True
+Oracle:Other creatures have base power and toughness 2/2 and are Corgis in addition to their other types.

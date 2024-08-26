@@ -91,6 +91,75 @@ public final class GamePlayerUtil {
         
         player.setAiProfile(profile);
         player.setAvatarIndex(avatarIndex);
+        
+        //Bob Code Injection
+        switch(avatarIndex) {
+        	case 23: player.setName("Huddie"); break;
+        	case 24: player.setName("Chloe"); break;
+        	case 25: player.setName("Bert"); break;
+        	case 26: player.setName("May"); break;
+        	case 27: player.setName("Bob"); break;
+        	case 28: player.setName("Luke"); break;
+        	case 29: player.setName("Henk-Herman"); break;
+        	case 30: player.setName("Jeroen"); break;
+        	case 31: player.setName("Kathleen"); break;
+        	case 32: player.setName("Jeremy"); break;
+        	case 33: player.setName("Brian"); break;
+        	case 34: player.setName("Marcus"); break;
+        	case 35: player.setName("Pat"); break;
+        	case 36: player.setName("Denver"); break;
+        	case 37: player.setName("James"); break;
+        	case 38: player.setName("Joe"); break;
+        	case 39: player.setName("Phill"); break;
+        	case 40: player.setName("Kathrin"); break;
+        	case 41: player.setName("Vero"); break;
+        	case 42: player.setName("Raf"); break;
+        	case 43: player.setName("Robby"); break;
+        	case 44: player.setName("Matt"); break;
+        	case 45: player.setName("Glenn"); break;
+        	case 46: player.setName("Lauren"); break;
+        	case 47: player.setName("Kelly"); break;
+        	case 48: player.setName("David"); break;
+        	case 49: player.setName("Natasha"); break;
+        	case 50: player.setName("Yoeri"); break;
+        	case 51: player.setName("Andy"); break;
+        	case 52: player.setName("Seth"); break;
+        	case 53: player.setName("Sara"); break;
+        	case 54: player.setName("Naomi"); break;
+        	case 55: player.setName("David"); break;
+        	case 56: player.setName("Yaprak"); break;
+        	case 57: player.setName("Jason"); break;
+        	case 58: player.setName("Kurt"); break;
+        	case 59: player.setName("Chris"); break;
+        	case 60: player.setName("Ashley"); break;
+        	case 61: player.setName("JS"); break;
+        	case 62: player.setName("Steven"); break;
+        	case 63: player.setName("Chris"); break;
+        	case 64: player.setName("Roger"); break;
+        	case 65: player.setName("Elke"); break;
+        	case 66: player.setName("Mattias"); break;
+        	case 67: player.setName("Kate"); break;
+        	case 68: player.setName("Laura"); break;
+        	case 69: player.setName("Katia"); break;
+        	case 70: player.setName("Joost"); break;
+        	case 71: player.setName("Freya"); break;
+        	case 72: player.setName("Lennart"); break;
+        	case 73: player.setName("Merel"); break;
+        	case 74: player.setName("Kris"); break;
+        	case 75: player.setName("Peter"); break;
+        	case 76: player.setName("Lexi"); break;
+        	case 77: player.setName("Karolien"); break;
+        	case 78: player.setName("Stelanie"); break;
+        	case 79: player.setName("Thomas"); break;
+        	case 80: player.setName("Bart"); break;
+        	case 81: player.setName("Birgit"); break;
+        	case 82: player.setName("Frederik"); break;
+        	case 83: player.setName("Liesbet"); break;
+        	case 84: player.setName("Jeroen"); break;
+        	case 85: player.setName("Davy"); break;
+        	default: return createAiPlayer();
+        }		        
+        
         player.setSleeveIndex(sleeveIndex);
         return player;
     }

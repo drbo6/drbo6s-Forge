@@ -1,6 +1,6 @@
 Name:Phelia, Exuberant Shepherd
 ManaCost:1 W
-Types:Legendary Creature Dog
+Types:Legendary Creature Corgi Dog
 PT:2/2
 K:Flash
 T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigExile | TriggerDescription$ Whenever CARDNAME attacks, exile up to one other target nonland permanent. At the beginning of the next end step, return that card to the battlefield under its owner's control. If it entered under your control, put a +1/+1 counter on NICKNAME.

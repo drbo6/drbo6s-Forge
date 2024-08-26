@@ -1,0 +1,6 @@
+Name:Corgi Token
+ManaCost:no cost
+Types:Creature Corgi
+PT:1/1
+Colors:green
+Oracle:
